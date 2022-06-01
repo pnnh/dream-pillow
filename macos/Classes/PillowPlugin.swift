@@ -12,6 +12,8 @@ public class PillowPlugin: NSObject, FlutterPlugin {
     switch call.method {
     case "getPlatformVersion":
       result("macOS " + ProcessInfo.processInfo.operatingSystemVersionString)
+    case "initPlugin":
+      result("ok")
     default:
       result(FlutterMethodNotImplemented)
     }

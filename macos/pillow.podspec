@@ -20,7 +20,7 @@ A new flutter plugin project.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
   s.swift_version = '5.0'
 
-  s.vendored_frameworks = 'QtCore.framework'
-  s.vendored_library    = 'libcouch_shared.dylib'
-  s.library  = 'couch_shared'
+#   s.vendored_frameworks = 'QtCore.framework'
+#   s.vendored_library    = 'libcouch_shared.dylib'
+#   s.library  = 'couch_shared'
 end
